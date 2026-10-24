@@ -4,26 +4,37 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Website cá nhân của tôi</title>
+  <title>Huy | Website cá nhân</title>
   <style>
     * { box-sizing: border-box; }
 
     body {
       margin: 0;
       font-family: Arial, sans-serif;
-      background: #f3f5fb;
-      color: #243047;
+      background: #f4f6fb;
+      color: #263248;
       line-height: 1.7;
     }
 
     header {
-      background: #3157d5;
-      color: white;
+      padding: 65px 20px;
       text-align: center;
-      padding: 55px 20px;
+      color: white;
+      background: linear-gradient(135deg, #3157d5, #7648c8);
     }
 
-    header h1 { margin-bottom: 8px; }
+    .avatar {
+      width: 100px;
+      height: 100px;
+      margin: auto;
+      border-radius: 50%;
+      background: white;
+      color: #3157d5;
+      font-size: 42px;
+      font-weight: bold;
+      display: grid;
+      place-items: center;
+    }
 
     main {
       max-width: 760px;
@@ -33,56 +44,72 @@
 
     section {
       background: white;
+      padding: 25px;
       margin-bottom: 20px;
-      padding: 24px;
       border-radius: 16px;
+      box-shadow: 0 5px 20px #1725540d;
     }
 
     h2 { color: #3157d5; }
 
-    a {
+    .button {
+      display: inline-block;
+      padding: 10px 20px;
+      border-radius: 9px;
+      background: white;
       color: #3157d5;
       text-decoration: none;
+      font-weight: bold;
+      margin-top: 12px;
     }
 
     footer {
       text-align: center;
       padding: 20px;
-      color: #667085;
+      color: #697386;
     }
   </style>
 </head>
 <body>
   <header>
-    <h1>Xin chào! Tôi là Nguyễn Văn A</h1>
-    <p>Chào mừng bạn đến với website cá nhân của tôi.</p>
+    <div class="avatar">H</div>
+    <h1>Xin chào, tôi là Huy!</h1>
+    <p>Chào mừng bạn đến với không gian cá nhân của tôi.</p>
+    <a class="button" href="#contact">Liên hệ với tôi</a>
   </header>
 
   <main>
     <section>
-      <h2>Giới thiệu</h2>
+      <h2>👋 Giới thiệu</h2>
       <p>
-        Xin chào! Tôi đang học cách tạo website
-        và đây là trang web đầu tiên của tôi.
+        Xin chào! Tôi đang học hỏi, phát triển bản thân
+        và khám phá thế giới công nghệ.
       </p>
+      <p>Đây là nơi tôi chia sẻ thông tin và sở thích của mình.</p>
     </section>
 
     <section>
-      <h2>Sở thích</h2>
-      <p>Tôi thích du lịch, âm nhạc, công nghệ
-      và khám phá những điều mới.</p>
+      <h2>💡 Kỹ năng đang học</h2>
+      <p>HTML · CSS · Thiết kế website · Công nghệ</p>
     </section>
 
     <section>
-      <h2>Liên hệ</h2>
-      <p>Email: <a href="mailto:emailcuaban@example.com">
+      <h2>🎯 Sở thích</h2>
+      <p>Âm nhạc, du lịch, khám phá công nghệ và học điều mới.</p>
+    </section>
+
+    <section id="contact">
+      <h2>📩 Liên hệ</h2>
+      <p>Bạn có thể liên hệ với tôi qua email:</p>
+      <p>Thay email mẫu bên dưới bằng email của bạn.</p>
+      <a href="mailto:emailcuaban@example.com">
         emailcuaban@example.com
-      </a></p>
+      </a>
     </section>
   </main>
 
   <footer>
-    © 2026 - Website cá nhân của tôi
+    © 2026 Huy · Website cá nhân
   </footer>
 </body>
 </html>
